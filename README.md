@@ -110,12 +110,6 @@ The Community Waste Management and Drainage Reporting System is proposed as a lo
 
 ⸻
 
-Course: PROG101 – Principles of Programming Logic and Design
-Institution: Limkokwing University of Creative Technology, Sierra Leone
-Project Title: Community Waste Management and Drainage Reporting System (CWDRS)
-
-A logical system design for reporting and monitoring poor waste management and blocked drainage problems in Sierra Leone
-
 ## ALGORITHM DESIGN
 
 ## Algorithm 1: Resident Report Submission
