@@ -158,5 +158,95 @@ Steps:
 10. Update the report status according to the selected action:
     * In Progress.
 
+## PSEUDOCODE
+
+Resident Report Submission
+
+BEGIN
+
+    INPUT residentName
+    INPUT contactNumber
+    INPUT location
+    INPUT complaintCategory
+    INPUT complaintDescription
+
+    WHILE residentName IS EMPTY OR
+          contactNumber IS EMPTY OR
+          location IS EMPTY OR
+          complaintDescription IS EMPTY
+
+        DISPLAY "Please complete all required fields"
+
+        INPUT residentName
+        INPUT contactNumber
+        INPUT location
+        INPUT complaintDescription
+
+    END WHILE
+
+    IF complaintCategory IS VALID THEN
+
+        GENERATE uniqueReportID
+
+        SAVE reportDetails
+
+        SET reportStatus = "Pending"
+
+        DISPLAY "Report submitted successfully"
+        DISPLAY uniqueReportID
+
+    ELSE
+
+        DISPLAY "Invalid complaint category"
+
+    END IF
+
+END
+
+Administrator Report Management
+
+BEGIN
+
+    INPUT reportID
+
+    SEARCH for reportID
+
+    IF reportID EXISTS THEN
+
+        DISPLAY reportDetails
+
+        DISPLAY "Select an action"
+        DISPLAY "1. Start Work"
+        DISPLAY "2. Complete Work"
+        DISPLAY "3. Keep Pending"
+
+        INPUT choice
+
+        IF choice = 1 THEN
+            SET reportStatus = "In Progress"
+
+        ELSE IF choice = 2 THEN
+            SET reportStatus = "Resolved"
+
+        ELSE IF choice = 3 THEN
+            SET reportStatus = "Pending"
+
+        ELSE
+            DISPLAY "Invalid selection"
+
+        END IF
+
+        SAVE updatedReport
+
+        DISPLAY reportStatus
+
+    ELSE
+
+        DISPLAY "Report not found"
+
+    END IF
+
+END
+
 ## Author 
 -MUSTAPHA LAMA KAMARA-905006539
