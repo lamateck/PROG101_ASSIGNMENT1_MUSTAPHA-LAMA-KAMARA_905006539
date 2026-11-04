@@ -116,6 +116,5 @@ Project Title: Community Waste Management and Drainage Reporting System (CWDRS)
 
 A logical system design for reporting and monitoring poor waste management and blocked drainage problems in Sierra Leone
 
-Author 
-
-MUSTAPHA LAMA KAMARA_905006539
+##Author 
+-MUSTAPHA LAMA KAMARA-905006539
