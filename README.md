@@ -115,3 +115,6 @@ Institution: Limkokwing University of Creative Technology, Sierra Leone
 Project Title: Community Waste Management and Drainage Reporting System (CWDRS)
 
 A logical system design for reporting and monitoring poor waste management and blocked drainage problems in Sierra Leone
+
+AUTHUR
+MUSTAPHA LAMA KAMARA_905006539
