@@ -2,7 +2,7 @@
 A logical system design for reporting and monitoring poor waste management and blocked drainage problems in Sierra Leone  Resources
 # Community Waste Management and Drainage Reporting System (CWDRS)
 
-1. Project Overview
+## 1. Project Overview
 
 The Community Waste Management and Drainage Reporting System (CWDRS) is a proposed system designed to address poor waste management and blocked drainage problems in Sierra Leone.
 
@@ -10,13 +10,13 @@ The system provides a logical approach for residents to report waste-related pro
 
 This project is developed as part of the PROG101: Principles of Programming Logic and Design assignment at Limkokwing University of Creative Technology, Sierra Leone.
 
-2. Problem Statement
+## 2. Problem Statement
 
 Poor waste management and blocked drainage systems are major environmental challenges in many communities in Sierra Leone. These problems contribute to flooding, environmental pollution, unpleasant surroundings and health risks.
 
 The proposed system aims to improve how these problems are reported, recorded and monitored.
 
-3. Project Objectives
+## 3. Project Objectives
 
 The main objectives are to:
 
@@ -27,7 +27,7 @@ The main objectives are to:
 * Allow administrators to monitor reports and update their statuses.
 * Improve the organisation and tracking of community complaints.
 
-4. Main System Features
+## 4. Main System Features
 
 * Resident complaint submission.
 * Report information validation.
@@ -37,7 +37,7 @@ The main objectives are to:
 * Administrator report management.
 * Report summary generation.
 
-5. Complaint Categories
+## 5. Complaint Categories
 
 The system will recognise the following complaint categories:
 
@@ -46,7 +46,7 @@ The system will recognise the following complaint categories:
 3. Blocked drainage channels.
 4. Illegal waste dumping.
 
-6. Report Status
+## 6. Report Status
 
 Each complaint will have one of the following statuses:
 
@@ -54,7 +54,7 @@ Each complaint will have one of the following statuses:
 * In Progress: Action is being taken.
 * Resolved: The reported problem has been addressed.
 
-7. Computational Thinking Concepts
+## 7. Computational Thinking Concepts
 
 The project applies the following computational thinking concepts:
 
@@ -63,7 +63,7 @@ The project applies the following computational thinking concepts:
 * Abstraction
 * Algorithm Design
 
-8. Technologies and Tools
+## 8. Technologies and Tools
 
 The project uses the following tools for its logical design and documentation:
 
@@ -72,7 +72,7 @@ The project uses the following tools for its logical design and documentation:
 * Flowcharts – Visual representation of system processes.
 * Pseudocode – Description of the system’s logical steps.
 
-9. Repository Structure
+## 9. Repository Structure
 
 The repository contains the following project materials:
 
@@ -82,7 +82,7 @@ The repository contains the following project materials:
 * Flowcharts – Visual diagrams of the system processes.
 * Screenshots – Evidence of project development and GitHub activities.
 
-10. Expected Outputs
+## 10. Expected Outputs
 
 The expected system outputs include:
 
@@ -93,18 +93,18 @@ The expected system outputs include:
 * Updated report information.
 * Report summary.
 
-11. Project Limitations
+## 11. Project Limitations
 
 The project focuses on logical system design and documentation. It does not represent a fully developed application. It does not physically collect waste or clear blocked drainage channels.
 
-12. Sustainable Development Goals
+## 12. Sustainable Development Goals
 
 The project supports:
 
 * SDG 11: Sustainable Cities and Communities.
 * SDG 3: Good Health and Well-being.
 
-13. Conclusion
+## 13. Conclusion
 
 The Community Waste Management and Drainage Reporting System is proposed as a logical solution to improve the reporting and monitoring of waste management and drainage problems in Sierra Leone. It demonstrates how programming logic and computational thinking can be applied to address real-life community challenges.
 
@@ -116,5 +116,47 @@ Project Title: Community Waste Management and Drainage Reporting System (CWDRS)
 
 A logical system design for reporting and monitoring poor waste management and blocked drainage problems in Sierra Leone
 
-##Author 
+## ALGORITHM DESIGN
+
+## Algorithm 1: Resident Report Submission
+
+Purpose: To allow residents to submit complaints about poor waste management and blocked drainage.
+
+Steps:
+
+1. Start.
+2. Request the resident’s details and complaint information.
+3. Receive the resident’s name, contact information, location and complaint category.
+4. Check whether all required fields have been completed.
+5. If any required information is missing, display an error message and request the resident to enter the missing information.
+6. Check whether the selected complaint category is valid.
+7. If the category is invalid, display an error message and request a valid category.
+8. Generate a unique Report ID.
+9. Save the complaint details in the system.
+10. Set the report status to Pending.
+11. Display a confirmation message together with the Report ID.
+12. End.
+
+## Algorithm 2: Administrator Report Management
+
+Purpose: To allow administrators to view submitted complaints and update their progress.
+
+Steps:
+
+1. Start.
+2. Administrator opens the system.
+3. Request the Report ID.
+4. Receive the Report ID entered by the administrator.
+5. Search for the report in the system.
+6. Check whether the report exists.
+7. If the report does not exist, display a message stating that the report was not found.
+8. If the report exists, display the report details.
+9. Allow the administrator to select an action:
+    * Start work on the complaint.
+    * Mark the complaint as completed.
+    * Keep the complaint pending.
+10. Update the report status according to the selected action:
+    * In Progress.
+
+## Author 
 -MUSTAPHA LAMA KAMARA-905006539
