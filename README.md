@@ -112,7 +112,7 @@ The Community Waste Management and Drainage Reporting System is proposed as a lo
 
 ## SCREENSHOT
 
-<img width="1440" height="900" alt="Screenshot 2026-11-04 at 2 47 30 PM" src="https://github.com/user-attachments/assets/117b1955-ffda-49ee-a6f4-0465d0c96018" />
+
 
 ## ALGORITHM DESIGN
 
